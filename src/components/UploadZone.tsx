@@ -99,12 +99,11 @@ export default function UploadZone() {
         >
           <div className="text-5xl">🎬</div>
           <div className="text-center">
-            <p className="text-lg font-semibold text-white">Drop your video here</p>
-            <p className="text-sm text-gray-400 mt-1">or click to browse — MP4, MOV, WebM up to 200MB</p>
+            <p className="text-lg font-semibold text-white">اسحب الفيديو هنا</p>
+            <p className="text-sm text-gray-400 mt-1">أو اضغط للاختيار — ملفات MP4 و MOV و WebM حتى 200MB</p>
           </div>
           <span className="px-5 py-2.5 bg-violet-600 hover:bg-violet-500 rounded-xl text-sm font-semibold transition-colors">
-            Choose Video
-          </span>
+اختر الفيديو          </span>
         </label>
       )}
 
