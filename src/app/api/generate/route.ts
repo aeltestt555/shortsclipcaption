@@ -1,9 +1,11 @@
+import { TranscriptSegment } from './../../../types/index';
 import { NextRequest, NextResponse } from 'next/server'
-import { createAdminClient } from '@/lib/supabase/server'
-import { generateCaptions } from '@/lib/groq'
-import { generateSRT } from '@/lib/utils'
-import { TranscriptSegment } from '@/types'
-
+    
+import { generateSRT } from '../../../lib/utils';
+import { generateCaptions } from '../../../lib/groq';
+import { createAdminClient } from '../../../lib/supabase/server';
+ 
+ 
 export const maxDuration = 60
 
 export async function POST(request: NextRequest) {

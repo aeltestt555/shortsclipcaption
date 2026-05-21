@@ -1,8 +1,8 @@
 'use client'
 
 import { useState } from 'react'
-import { downloadTextFile } from '@/lib/utils'
-import { VideoJob } from '@/types'
+import { downloadTextFile } from '../lib/utils'
+import { VideoJob } from '../types/index'
 
 interface ResultsPanelProps {
   job: VideoJob

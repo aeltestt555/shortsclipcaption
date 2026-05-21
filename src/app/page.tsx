@@ -1,5 +1,6 @@
-import UploadZone from '@/components/UploadZone'
+import UploadZone from "../components/UploadZone"
 
+UploadZone
 export default function Home() {
   return (
     <div className="space-y-10">

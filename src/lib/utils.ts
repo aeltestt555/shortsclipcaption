@@ -1,4 +1,4 @@
-import { TranscriptSegment } from '@/types'
+import { TranscriptSegment } from '../types'
 
 // Convert seconds to SRT timestamp format: HH:MM:SS,mmm
 function secondsToSrtTime(seconds: number): string {

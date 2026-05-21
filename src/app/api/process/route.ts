@@ -1,8 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createAdminClient } from '@/lib/supabase/server'
-import { extractAudio } from '@/lib/ffmpeg'
-import { transcribeAudio } from '@/lib/groq'
-
+ import { createAdminClient } from '../../../lib/supabase/server'
+import { extractAudio } from '../../../lib/ffmpeg'
+import { transcribeAudio } from '../../../lib/groq'
+ 
 export const maxDuration = 300 // 5 minutes — needed for long videos
 
 export async function POST(request: NextRequest) {

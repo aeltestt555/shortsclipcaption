@@ -1,5 +1,5 @@
 import Groq from 'groq-sdk'
-import { TranscriptSegment, CaptionResult } from '@/types'
+import { TranscriptSegment, CaptionResult } from '../types/index'
 
 const groq = new Groq({
   apiKey: process.env.GROQ_API_KEY,

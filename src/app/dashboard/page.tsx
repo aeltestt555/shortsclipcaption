@@ -2,8 +2,11 @@
 
 import { useEffect, useState, Suspense } from 'react'
 import { useSearchParams } from 'next/navigation'
-import ResultsPanel from '@/components/ResultsPanel'
-import { VideoJob } from '@/types'
+
+import { VideoJob } from '../../types/index'
+import ResultsPanel from '../../components/ResultsPanel'
+
+ 
 
 type Stage = 'uploading' | 'processing' | 'transcribed' | 'generating' | 'done' | 'error'
 
